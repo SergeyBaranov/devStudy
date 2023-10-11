@@ -71,3 +71,11 @@ header {
     display: none;
   }
 }
+
+/* main */
+.pageSection {
+  max-width: 1197px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
