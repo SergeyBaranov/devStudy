@@ -101,8 +101,7 @@ section:nth-child(even ) {
 
 /* about me section */
 .sectionHeader {
-  width: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -149,3 +148,47 @@ section:nth-child(even ) {
  font-weight: 700;  
  color: 004C93; 
 }
+
+/* калькулятор */
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calculator input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #004C93;
+}
+
+.calculator select {
+  padding: 8px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #004C93;
+}
+
+.calculator button {
+  border-radius: 5px;
+  background: #004C93;
+  border: none;
+  padding: 12px 8px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* troubles */
+.troubles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.troubles .itemTitle {
+  text-align: center;
+}
+
+
