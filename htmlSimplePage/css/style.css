@@ -52,6 +52,11 @@ header {
   display: none;
 }
 
+/* hiddenMenu */
+.hiddenMenu {
+  display: none !important;
+}
+
 /* by screens size */
 @media (max-width: 930px) {
   .header__item {
@@ -74,6 +79,27 @@ header {
   .header__nav {
     display: none;
   }
+
+  .hiddenMenu {
+    display: flex;
+  }
+
+  .hiddenMenu ul {
+    list-style: none;
+    width: 100%;    
+    padding-right: 24px;
+  }
+  
+  .hiddenMenu li {
+    text-align: right;
+    padding: 16px;
+  }
+
+  .hiddenMenu li:hover {
+    background: #ffffff33;
+    border-radius: 8px;
+  }
+
 }
 
 /* main */
@@ -193,7 +219,7 @@ section:nth-child(even ) {
 
 
 /* moood */
-.mood {
+.moodImage {
   margin: 0 auto;
 }
 .moodImage img{
@@ -219,3 +245,4 @@ footer {
   align-items: center;
   padding: 0 24px;
 }
+
