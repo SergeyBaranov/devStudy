@@ -192,3 +192,30 @@ section:nth-child(even ) {
 }
 
 
+/* moood */
+.mood {
+  margin: 0 auto;
+}
+.moodImage img{
+  border-radius: 8px;
+  /* align-self: center; */
+  width: 100%;
+  
+}
+
+
+/* footer */
+
+footer {
+  background: #004C93;
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1197px;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  padding: 0 24px;
+}
