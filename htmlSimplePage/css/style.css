@@ -82,15 +82,14 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 32px 0;
+  padding: 32px 24px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 section:nth-child(even ) {
   background: #ffffff;
 }
-
-
 
 .myPhoto img {
   max-width: 400px;
@@ -98,4 +97,55 @@ section:nth-child(even ) {
   -webkit-box-shadow: 0px 10px 8px -8px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 10px 8px -8px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 10px 8px -8px rgba(34, 60, 80, 0.2);
+}
+
+/* about me section */
+.sectionHeader {
+  width: 100%;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.aboutMeContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aboutNeContent__item {
+  height: 264px;
+  width: 200px;
+  border: 1px solid #89a5c2;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #f9fcff;
+}
+
+.aboutNeContent__item:nth-child(even) {
+  margin-top: 64px;
+}
+
+@media (max-width: 530px) {
+  
+  .aboutNeContent__item {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: 16px;
+    padding: 0;
+  }
+
+  .aboutNeContent__item:nth-child(even) {
+    margin-top: 0;
+  }
+
+}
+
+.itemTitle {
+ font-size: 120px;
+ font-weight: 700;  
+ color: 004C93; 
 }
